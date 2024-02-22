@@ -31,9 +31,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y      &kp U  &kp I            &kp O      &kp P            &none
+&none  &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Z      &kp U  &kp I            &kp O      &kp P            &none
 &none  &kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J  &kp K            &kp L      &kp RIGHT_SHIFT  &none
-&none  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M  &kp RCMD         &kp RCTRL  &kp RALT         &none
+&none  &kp Y  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M  &kp RCMD         &kp RCTRL  &kp RALT         &none
                      &mo 2  &mo 1  &kp ENTER    &kp SPACE  &mo 1  &lt 3 BACKSPACE
             >;
         };
@@ -47,7 +47,7 @@
 
             bindings = <
 &none  &kp DEL                     &kp AT    &kp AMPS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp EXCLAMATION  &kp SLASH    &kp SQT    &kp CARET  &kp ESCAPE  &none
-&none  &kp LEFT_SHIFT              &kp HASH  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp DOT          &kp COMMA    &kp GRAVE  &kp TAB    &trans      &none
+&none  &kp LEFT_SHIFT              &kp HASH  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp GRAVE        &kp DOT      &kp COMMA  &kp TAB    &trans      &none
 &none  &kp LC(LA(LG(LEFT_SHIFT)))  &kp STAR  &kp DOLLAR     &kp MINUS             &kp EQUAL                &kp SEMICOLON    &kp PERCENT  &trans     &trans     &trans      &none
                                              &trans         &trans                &trans                   &trans           &trans       &trans
             >;
