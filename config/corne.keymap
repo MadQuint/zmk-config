@@ -64,7 +64,7 @@
 
             bindings = <
 &none  &kp DEL                     &kp AT    &kp AMPS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp SLASH      &kp EXCL     &kp APOSTROPHE  &kp CARET  &kp ESCAPE  &none
-&none  &kp LEFT_SHIFT              &kp HASH  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp DOT        &kp GRAVE    &kp COMMA       &trans     &trans      &none
+&none  &kp LEFT_SHIFT              &kp HASH  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp DOT        &kp GRAVE    &kp COMMA       &kp TAB    &trans      &none
 &none  &kp LC(LA(LG(LEFT_SHIFT)))  &kp STAR  &kp DOLLAR     &kp MINUS             &kp EQUAL                &kp SEMICOLON  &kp PERCENT  &trans          &trans     &trans      &none
                                              &trans         &trans                &trans                   &trans         &trans       &trans
             >;
