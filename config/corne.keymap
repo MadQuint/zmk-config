@@ -20,6 +20,11 @@
             bindings = <&mo 5>;
             key-positions = <36 41>;
         };
+
+        medialayer {
+            bindings = <&mo 4>;
+            key-positions = <37 40>;
+        };
     };
 
     keymap {
@@ -98,12 +103,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        Media_Layer {
-            if-layers = <1>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
